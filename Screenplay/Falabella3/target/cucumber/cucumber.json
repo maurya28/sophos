@@ -1,0 +1,135 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16035953800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is in the falabellas site",
+            "match": {
+              "location": "FalabellaStepDefinitions.userIsInTheFalabellasSite()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 156783900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FalabellaStepDefinitions.actorCanBrowseTheWeb()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "search-a-product-on-falabella;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7951611700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user searches the product",
+            "match": {
+              "location": "FalabellaStepDefinitions.theUserSearchesTheProduct(Product\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Huawei P20"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13928511500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "selects the product",
+            "match": {
+              "location": "FalabellaStepDefinitions.selectsTheProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1423692500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "add the product to the shopping cart",
+            "match": {
+              "location": "FalabellaStepDefinitions.addTheProductToTheShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2318612300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The user verifies that the product of the shopping cart is the same one that was selected",
+            "match": {
+              "location": "FalabellaStepDefinitions.theUserVerifiesThatTheProductOfTheShoppingCartIsTheSameOneThatWasSelected(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Huawei P20",
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Search a product on falabella",
+    "description": "",
+    "id": "search-a-product-on-falabella",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Falabella.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
