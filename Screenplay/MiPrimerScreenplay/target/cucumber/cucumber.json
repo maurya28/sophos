@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 97515700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.actorCanBrowseTheWeb()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "buscar en google",
+        "description": "",
+        "id": "search-in-google-with-data-from-feature;buscar-en-google;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8019315100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "el usuario esta en el sitio de google",
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.elUsuarioEstaEnElSitioDeGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5041086500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "el busca la frase compuesta",
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.elBuscaLaFraseCompuesta(Phrase\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "palabra",
+                  "palabraDos"
+                ]
+              },
+              {
+                "cells": [
+                  "switch",
+                  "uno"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1400170800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verifica que la palabra \"switch uno\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "switch uno",
+                  "offset": 25
+                }
+              ],
+              "location": "MiPrimerScreenplayStepDefinitions.verificaQueLaPalabraEsteEnLosResultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4074600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.actorCanBrowseTheWeb()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "buscar en google",
+        "description": "",
+        "id": "search-in-google-with-data-from-feature;buscar-en-google;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7205295300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "el usuario esta en el sitio de google",
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.elUsuarioEstaEnElSitioDeGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3713926000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "el busca la frase compuesta",
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.elBuscaLaFraseCompuesta(Phrase\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "palabra",
+                  "palabraDos"
+                ]
+              },
+              {
+                "cells": [
+                  "sophos solutions",
+                  "dos"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 468290600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verifica que la palabra \"sophos solutions dos\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sophos solutions dos",
+                  "offset": 25
+                }
+              ],
+              "location": "MiPrimerScreenplayStepDefinitions.verificaQueLaPalabraEsteEnLosResultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3704500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.actorCanBrowseTheWeb()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "buscar en google",
+        "description": "",
+        "id": "search-in-google-with-data-from-feature;buscar-en-google;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5698183400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "el usuario esta en el sitio de google",
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.elUsuarioEstaEnElSitioDeGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3104520700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "el busca la frase compuesta",
+            "match": {
+              "location": "MiPrimerScreenplayStepDefinitions.elBuscaLaFraseCompuesta(Phrase\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "palabra",
+                  "palabraDos"
+                ]
+              },
+              {
+                "cells": [
+                  "hola",
+                  "tres"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: La frase encontrada no corresponde al resultado esperado - \nExpected: is \"kjadshkjashdkjhaskjd\"\n     but: was \"hola tres\"\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:291)\r\n\tat co.com.google.qa.miprimerscreenplay.stepsdefinitions.MiPrimerScreenplayStepDefinitions.verificaQueLaPalabraEsteEnLosResultados(MiPrimerScreenplayStepDefinitions.java:56)\r\n\tat ✽.Verifica que la palabra \"kjadshkjashdkjhaskjd\" este en los resultados(src/test/resources/features/MiPrimerScreenplay.feature:10)\r\n",
+              "duration": 1444999800,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Verifica que la palabra \"kjadshkjashdkjhaskjd\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kjadshkjashdkjhaskjd",
+                  "offset": 25
+                }
+              ],
+              "location": "MiPrimerScreenplayStepDefinitions.verificaQueLaPalabraEsteEnLosResultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search in google with data from feature",
+    "description": "  el usuario quiere hacer una busqueda en google con datos",
+    "id": "search-in-google-with-data-from-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/MiPrimerScreenplay.feature",
+    "tags": []
+  }
+]

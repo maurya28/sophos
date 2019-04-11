@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Title of your feature" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-04-01T16:49:17" hostname="LAPTOP-F536CD9L" time="44.005">
+  <properties/>
+  <testcase name=": Buscar en google" classname="Title of your feature" time="10.933"/>
+  <testcase name=": Buscar en google" classname="Title of your feature" time="7.32"/>
+  <testcase name=": Buscar en google" classname="Title of your feature" time="25.741"/>
+  <system-out><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></system-out>
+  <system-err><![CDATA[abr 01, 2019 11:49:18 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 26466
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+abr 01, 2019 11:49:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+abr 01, 2019 11:49:28 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 01, 2019 11:49:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+abr 01, 2019 11:49:35 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 01, 2019 11:49:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+</testsuite>

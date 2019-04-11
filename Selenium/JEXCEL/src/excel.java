@@ -12,18 +12,18 @@ import jxl.read.biff.BiffException;
 public class excel {
 
 	public static void main(String[] args) throws Exception {
-		String filePath = "C:\\Users\\SEMILLERO8\\Documents\\Datos.xls";
+		String direccion = "C:\\Users\\SEMILLERO8\\Documents\\Datos.xls";
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		try {
-			ReadExcel me = new ReadExcel(filePath);
+			ReadExcel me = new ReadExcel(direccion);
 		
-			int sheet = 0,col = 0; 
-			int size = me.getColSize(sheet,col);
+			int hoja = 0,col = 0; 
+			int size = me.getColSize(hoja,col);
 			System.out.println(size);
 			for(int i = 0; i < size ; i++) { 
-			  Cell c = me.getCell(sheet,col,i); 
+			  Cell c = me.getCell(hoja,col,i); 
 			  driver.get("https://www.google.com");
 			  String value = c.getContents();		
 			  driver.findElement(By.name("q")).sendKeys(value);
@@ -34,10 +34,10 @@ public class excel {
 				  wait.until(ExpectedConditions.visibilityOfElementLocated(By.
 				  xpath("//h1[contains(text(),'Resultados de búsqueda')]"))); 
 				  System.out.println("Resultados encontrados"); 
-				  me.write(sheet, 1, i, "Encontrado");
+				  me.write(hoja, 1, i, "Encontrado");
 			  } catch(Exception e) { 
 				  System.out.println("Sin resultados");
-				  me.write(sheet, 1, i, "Sin resultados");
+				  me.write(hoja, 1, i, "Sin resultados");
 			  } 
 			 }
 			
