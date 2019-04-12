@@ -1,9 +1,9 @@
 [
   {
-    "line": 20,
+    "line": 3,
     "elements": [
       {
-        "line": 22,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 16035953800,
+              "duration": 11908307000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 6,
             "name": "User is in the falabellas site",
             "match": {
               "location": "FalabellaStepDefinitions.userIsInTheFalabellasSite()"
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 156783900,
+              "duration": 225077700,
               "status": "passed"
             },
             "match": {
@@ -35,22 +35,22 @@
             }
           }
         ],
-        "line": 36,
-        "name": "Title of your scenario outline",
+        "line": 19,
+        "name": "add a product to the shopping cart",
         "description": "",
-        "id": "search-a-product-on-falabella;title-of-your-scenario-outline;;2",
+        "id": "search-a-product-on-falabella;add-a-product-to-the-shopping-cart;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7951611700,
+              "duration": 7609544500,
               "status": "passed"
             },
-            "line": 27,
-            "name": "The user searches the product",
+            "line": 10,
+            "name": "Mariana searches the product",
             "match": {
-              "location": "FalabellaStepDefinitions.theUserSearchesTheProduct(Product\u003e)"
+              "location": "FalabellaStepDefinitions.marianaSearchesTheProduct(Product\u003e)"
             },
             "rows": [
               {
@@ -63,37 +63,37 @@
           },
           {
             "result": {
-              "duration": 13928511500,
+              "duration": 6782012700,
               "status": "passed"
             },
-            "line": 29,
-            "name": "selects the product",
+            "line": 12,
+            "name": "She selects the product",
             "match": {
-              "location": "FalabellaStepDefinitions.selectsTheProduct()"
+              "location": "FalabellaStepDefinitions.sheSelectsTheProduct()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1423692500,
+              "duration": 1907331200,
               "status": "passed"
             },
-            "line": 30,
-            "name": "add the product to the shopping cart",
+            "line": 13,
+            "name": "She add the product to the shopping cart",
             "match": {
-              "location": "FalabellaStepDefinitions.addTheProductToTheShoppingCart()"
+              "location": "FalabellaStepDefinitions.sheAddTheProductToTheShoppingCart()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2318612300,
+              "duration": 1910309300,
               "status": "passed"
             },
-            "line": 31,
-            "name": "The user verifies that the product of the shopping cart is the same one that was selected",
+            "line": 14,
+            "name": "She verifies that the product of the shopping cart is the same one that was selected",
             "match": {
-              "location": "FalabellaStepDefinitions.theUserVerifiesThatTheProductOfTheShoppingCartIsTheSameOneThatWasSelected(String\u003e)"
+              "location": "FalabellaStepDefinitions.sheVerifiesThatTheProductOfTheShoppingCartIsTheSameOneThatWasSelected(String\u003e)"
             },
             "rows": [
               {
@@ -126,7 +126,7 @@
         "name": "@tag",
         "type": "Tag",
         "location": {
-          "line": 19,
+          "line": 2,
           "column": 1
         }
       }

@@ -10,7 +10,7 @@ formatter.feature({
   ]
 });
 formatter.scenarioOutline({
-  "name": "Title of your scenario outline",
+  "name": "add a product to the shopping cart",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -20,7 +20,7 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "The user searches the product",
+  "name": "Mariana searches the product",
   "keyword": "When ",
   "rows": [
     {
@@ -31,15 +31,15 @@ formatter.step({
   ]
 });
 formatter.step({
-  "name": "selects the product",
+  "name": "She selects the product",
   "keyword": "And "
 });
 formatter.step({
-  "name": "add the product to the shopping cart",
+  "name": "She add the product to the shopping cart",
   "keyword": "And "
 });
 formatter.step({
-  "name": "The user verifies that the product of the shopping cart is the same one that was selected",
+  "name": "She verifies that the product of the shopping cart is the same one that was selected",
   "keyword": "Then ",
   "rows": [
     {
@@ -88,7 +88,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Title of your scenario outline",
+  "name": "add a product to the shopping cart",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -101,7 +101,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "The user searches the product",
+  "name": "Mariana searches the product",
   "rows": [
     {
       "cells": [
@@ -112,33 +112,33 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "FalabellaStepDefinitions.theUserSearchesTheProduct(Product\u003e)"
+  "location": "FalabellaStepDefinitions.marianaSearchesTheProduct(Product\u003e)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "selects the product",
+  "name": "She selects the product",
   "keyword": "And "
 });
 formatter.match({
-  "location": "FalabellaStepDefinitions.selectsTheProduct()"
+  "location": "FalabellaStepDefinitions.sheSelectsTheProduct()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "add the product to the shopping cart",
+  "name": "She add the product to the shopping cart",
   "keyword": "And "
 });
 formatter.match({
-  "location": "FalabellaStepDefinitions.addTheProductToTheShoppingCart()"
+  "location": "FalabellaStepDefinitions.sheAddTheProductToTheShoppingCart()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "The user verifies that the product of the shopping cart is the same one that was selected",
+  "name": "She verifies that the product of the shopping cart is the same one that was selected",
   "rows": [
     {
       "cells": [
@@ -150,7 +150,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "FalabellaStepDefinitions.theUserVerifiesThatTheProductOfTheShoppingCartIsTheSameOneThatWasSelected(String\u003e)"
+  "location": "FalabellaStepDefinitions.sheVerifiesThatTheProductOfTheShoppingCartIsTheSameOneThatWasSelected(String\u003e)"
 });
 formatter.result({
   "status": "passed"

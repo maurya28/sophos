@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search a product on falabella","Title of your scenario outline","SUCCESS","2019-04-11T18:15:18.681-05:00[America/Bogota]","0.0","95.63"
+"Search a product on falabella","add a product to the shopping cart","SUCCESS","2019-04-12T08:39:56.559-05:00[America/Bogota]","0.0","33.7"

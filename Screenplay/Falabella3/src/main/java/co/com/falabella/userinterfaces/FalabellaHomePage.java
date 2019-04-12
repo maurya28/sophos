@@ -10,4 +10,5 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class FalabellaHomePage extends PageObject {
 
 	public static final Target SEARCH_BAR = Target.the("la barra de busqueda").located(By.name("Ntt"));
+	public static By SEARCH_BAR_XPATH =By.name("Ntt");
 }
